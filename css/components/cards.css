@@ -1,0 +1,64 @@
+/* Your card CSS file */
+.card-category {
+  background-image: url('https://images.unsplash.com/photo-1495214783159-3503fd1b572d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+  background-size: cover;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 30px;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-product{
+  height:150px;
+  display: flex;
+  align-items: center; /* center horziontally */
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 15px auto;
+}
+
+.card-product img{
+  height:150px;
+  margin-right: 20px;
+}
+
+.card-trip{
+  height: 520px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-trip img{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip-info {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.card-trip-info-price{
+  position: absolute;
+  top: -30px;
+  left: 830px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-trip-info-price img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid darkgrey;
+}

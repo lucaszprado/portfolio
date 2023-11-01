@@ -1,0 +1,8 @@
+/* Container to center my elements */
+.center-container {
+  text-align: center;
+}
+
+.left-container {
+  width: 900px;
+}
